@@ -1,24 +1,22 @@
 html {
-  font-family: 'helvetica neue', helvetica, arial, sans-serif;
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
 }
 
-thead th, tfoot th {
-  font-family: 'Rock Salt', cursive;
+thead th,
+tfoot th {
+  font-family: "Rock Salt", cursive;
 }
 
 th {
   letter-spacing: 2px;
+  width: 25vw;
+  text-align: left;
 }
 
 td {
   letter-spacing: 1px;
 }
 
-tbody td {
-  text-align: center;
+tr:hover {
+  background-color: #83d160;
 }
-
-tfoot th {
-  text-align: right;
-}
-
